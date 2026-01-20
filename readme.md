@@ -21,14 +21,13 @@
 | 3/24                         | [Intro to API]()                          |
 | 3/26                         | [Intro to Databases]()                    |
 | 3/31                         | [Intro to Mastadon]()                     |
-
-| 4/2
-| 4/7 | [Intro to Cookies]()
-| 4/9 | [Intro to Authentication]()
-| 4/14
-| 4/16
-| 4/21
-| 4/23
-| 4/28
-| 4/30
-| 5/5
+| 4/2                          |                                           |
+| 4/7                          | [Intro to Cookies]()                      |
+| 4/9                          | [Intro to Authentication]()               |
+| 4/14                         |                                           |
+| 4/16                         |                                           |
+| 4/21                         |                                           |
+| 4/23                         |                                           |
+| 4/28                         |                                           |
+| 4/30                         |                                           |
+| 5/5                          |                                           |
