@@ -50,16 +50,16 @@ How did we get to now?
 <table>
 <tbody>
 <tr>
-<td> <img src="/images/cables.png" style="width:400px;"> </td>
+<td> <img src="../../images/cables.png" style="width:400px;"> </td>
 </tr>
 <tr>
-<td><img src="/images/telephone.png" style="width:400px;"> </td>
+<td><img src="../../images/telephone.png" style="width:400px;"> </td>
 </tr>
 <tr>
-<td><img src="/images/gameboy.png" style="width:400px;"> </td>
+<td><img src="../../images/gameboy.png" style="width:400px;"> </td>
 </tr>
 <tr>
-<td><img src="/images/cloud.png" style="width:400px;"> </td>
+<td><img src="../../images/cloud.png" style="width:400px;"> </td>
 </tr>
 </tbody>
 </table>
@@ -78,7 +78,7 @@ How did we get to now?
 </td>
 
 <td>
-<img src="/images/arpanet.png" style="width:400px">
+<img src="../../images/arpanet.png" style="width:400px">
 </td>
 </tr>
 </tbody>
@@ -86,7 +86,7 @@ How did we get to now?
 
 ### internet = INTERconnected NETworks
 
-<img src="/images/undersea.png" style="width: 400px">
+<img src="../../images/undersea.png" style="width: 400px">
 
 ### HTML?
 
@@ -98,12 +98,12 @@ Tim Berners-Lee in 1989
 <tr>
 <td>
 
-<img src="/images/tbl.png" style="width:400px">
+<img src="../../images/tbl.png" style="width:400px">
 
 </td>
 
 <td>
-<img src="/images/first.png" style="width:400px">
+<img src="../../images/first.png" style="width:400px">
 </td>
 </tr>
 </tbody>
@@ -136,7 +136,7 @@ where
 </tbody>
 </table>
 
-![internet](/images/client-server.png)
+![internet](../../images/client-server.png)
 
 <table>
 <tbody>
