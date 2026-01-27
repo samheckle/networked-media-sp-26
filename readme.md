@@ -3,7 +3,7 @@
 | ---------------------------- | --------------------- |
 | 1/20  | Syllabus, Github, [Intro to HTML](class-notes/class1/readme.md#tutorial-html-basics) |
 | 1/22  | [File Structures](/class-notes/class2/readme.md)|
-| 1/27  |
+| 1/27  | [Intro to CSS](/class-notes/class3/readme.md) |
 | 1/29  | [Intro to Digital Ocean]()|
 | 2/3   |
 | 2/5   | [Intro to DOM]()|
