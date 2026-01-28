@@ -1,0 +1,23 @@
+body {
+  background-color: mediumspringgreen;
+}
+
+p {
+  font-size: 24px;
+}
+
+/* we grab the class by using . */
+.blue {
+  color: mediumslateblue;
+}
+.big {
+  font-size: 48px;
+}
+/* we get ids by using # */
+#howdy {
+  font-family: monospace;
+  border: black 3px solid;
+  padding: 100px;
+  margin: 30px;
+  margin-left: 50%;
+}
