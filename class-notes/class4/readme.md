@@ -131,7 +131,7 @@ Since we don’t get a graphical user interface for interacting with our server,
 
 In order to host a website on the droplet, we need to run a web server. There are many different flavors of web servers out there, but for this class we are building our own (ish) using NodeJS. Node is a Javascript-based environment used for scripting and server-side applications. Simply put, it’s the thing (one thing) that allows us to run Javascript outside of the browser. We like that, because it means we don’t need to learn a different programming language for the website’s backend: everything can be Javascript.
 
-In order to start using node, we first need to install it on the droplet. You only need to do this step once – after it’s installed, `node` will keep living on your droplet until you manually remove it. Run the following two commands:
+In order to start using node, we first need to install it on the droplet. You only need to do this step once – after it’s installed, `node` will keep living on your droplet until you manually remove it. Run the following two commands (make sure you are in your droplet! The terminal prompt should look like `root@sam-networked-media # `. If it doesn't have `root` in the prompt, you need to do the `ssh` command from above.
 
 ```bash
 sudo apt-get update
@@ -234,7 +234,9 @@ This is because of how `ssh` and shell (aka terminal) sessions work. Once we con
 
 In order to avoid that, we need an external utility which keeps our web server running even after we disconnect. There are a handful of options, but the one we will work with is called `pm2`. It also exists in the `npm` ecosystem, so you can install it like this:
 
-`sudo npm install --global pm2`
+```bash
+sudo npm install --global pm2
+```
 
 The `--global` flag tells `npm` to install this library for the entire filesystem, as opposed to locally for a project. `pm2` is a command-line utility, so it needs to be installed globally. We’ll get more into this later in the semester.
 
