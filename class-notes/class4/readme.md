@@ -152,9 +152,27 @@ _Try out #2: Create a simple file called `script.js`, which just contains a `con
 
 ## 🆕 Starting a node project 🆕 using Github and your local computer
 
-Last time, we "forked" the [networked-media-starter](https://github.com/samheckle/networked-media-starter). If you do not have this, please follow the [slides from last class](https://docs.google.com/presentation/d/1ZGrevQwZkxBoFxH8uHjCjdZpVPFPg74YFdVmICGHveE/edit?slide=id.g2b3404169b8_0_30#slide=id.g2b3404169b8_0_30).
+Last time, we "forked" the [networked-media-starter](https://github.com/samheckle/networked-media-starter). Your file structure on your computer should look like:
 
-Open your folder in VS Code. Open a terminal in VS Code (Terminal menu in top right → New Terminal). We need to navigate to the `webserver` folder in the command line.
+```
+networked-media/
+├── class-demos/
+├── webserver/
+│   ├── server.js
+│   ├── public
+│   │   ├── project1/
+│   │   ├── project2/
+├── project3/
+├── project4/
+├── project5/
+```
+
+Open your `networked-media` folder in VS Code. Open a terminal in VS Code:
+
+- Mac: Terminal menu in top right → New Terminal
+- PC: Terminal menu in top right → New Terminal → In the new window on the bottom, there should be a button: [+ ⋎] → click ⋎ → Select gitbash
+
+We need to navigate to the `webserver` folder in the command line.
 
 ```sh
 cd webserver
