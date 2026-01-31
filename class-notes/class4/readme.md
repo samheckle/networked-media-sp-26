@@ -77,7 +77,7 @@ _If you don’t feel comfortable doing this for any reason, send me an email (sa
 1. Choose your region: I default to New York since it is the closest one to us.
 2. Choose the Datacenter: if you are not given the option to create the $4 droplet on step 6, you might need to change the datacenter here.
 3. Make sure the `Ubuntu` option is chosen in the first row. Ubuntu is the Linux distribution we’ll be using for this class.
-4. The version is `24.10 x64` in the dropdown menu.
+4. The version is `24.04 x64` in the dropdown menu.
 5. Choose the `Basic` plan.
 6. For `CPU options` make sure to choose the `Regular` option, with the $4/mo pricing package. This is the cheapest option available to us, and the computing power will be sufficient for our needs. If the $4 option is greyed out, you need to change your datacenter on step 2.
 7. Under `Authentication`, make sure the `Password` option is selected (as opposed to `SSH keys`), and don’t forget to enter a password for your account on this server. **Make sure to remember this password, you’ll need it to access your droplet.**
