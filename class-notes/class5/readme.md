@@ -121,7 +121,7 @@ We have four paragraphs. One of them has no attributes, one of them has an `id`,
 ```jsx
 window.onload = () => {
   console.log("page is fully loaded");
-  document.getElementById("YourElementId").innerHTML("updated content with javascript");
+  document.getElementById("YourElementId").innerHTML = "updated content with javascript";
 };
 ```
 
@@ -148,7 +148,7 @@ We can use JavaScript to directly specify CSS properties for the elements we hav
 
 window.onload = () => {
   console.log("page is fully loaded");
-  document.getElementById("importantParagraph").innerHTML("updated content with javascript");
+  document.getElementById("importantParagraph").innerHTML = "updated content with javascript";
 
   document.getElementById("YourElementId").style.color = "blue";
 
@@ -164,7 +164,7 @@ We can also use JavaScript to assign a class to an element that doesn’t alread
 ```jsx
 window.onload = () => {
   console.log("page is fully loaded");
-  document.getElementById("importantParagraph").innerHTML("updated content with javascript");
+  document.getElementById("importantParagraph").innerHTML = "updated content with javascript";
 
   document.getElementById("importantParagraph").classList.add('blue-paragraph');
 };
