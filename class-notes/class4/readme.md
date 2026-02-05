@@ -77,7 +77,7 @@ _If you don’t feel comfortable doing this for any reason, send me an email (sa
 1. Choose your region: I default to New York since it is the closest one to us.
 2. Choose the Datacenter: if you are not given the option to create the $4 droplet on step 6, you might need to change the datacenter here.
 3. Make sure the `Ubuntu` option is chosen in the first row. Ubuntu is the Linux distribution we’ll be using for this class.
-4. The version is `24.10 x64` in the dropdown menu.
+4. The version is `24.04 x64` in the dropdown menu.
 5. Choose the `Basic` plan.
 6. For `CPU options` make sure to choose the `Regular` option, with the $4/mo pricing package. This is the cheapest option available to us, and the computing power will be sufficient for our needs. If the $4 option is greyed out, you need to change your datacenter on step 2.
 7. Under `Authentication`, make sure the `Password` option is selected (as opposed to `SSH keys`), and don’t forget to enter a password for your account on this server. **Make sure to remember this password, you’ll need it to access your droplet.**
@@ -131,7 +131,7 @@ Since we don’t get a graphical user interface for interacting with our server,
 
 In order to host a website on the droplet, we need to run a web server. There are many different flavors of web servers out there, but for this class we are building our own (ish) using NodeJS. Node is a Javascript-based environment used for scripting and server-side applications. Simply put, it’s the thing (one thing) that allows us to run Javascript outside of the browser. We like that, because it means we don’t need to learn a different programming language for the website’s backend: everything can be Javascript.
 
-In order to start using node, we first need to install it on the droplet. You only need to do this step once – after it’s installed, `node` will keep living on your droplet until you manually remove it. Run the following two commands:
+In order to start using node, we first need to install it on the droplet. You only need to do this step once – after it’s installed, `node` will keep living on your droplet until you manually remove it. Run the following two commands (make sure you are in your droplet! The terminal prompt should look like `root@sam-networked-media # `. If it doesn't have `root` in the prompt, you need to do the `ssh` command from above.
 
 ```bash
 sudo apt-get update
@@ -152,9 +152,27 @@ _Try out #2: Create a simple file called `script.js`, which just contains a `con
 
 ## 🆕 Starting a node project 🆕 using Github and your local computer
 
-Last time, we "forked" the [networked-media-starter](https://github.com/samheckle/networked-media-starter). If you do not have this, please follow the [slides from last class](https://docs.google.com/presentation/d/1ZGrevQwZkxBoFxH8uHjCjdZpVPFPg74YFdVmICGHveE/edit?slide=id.g2b3404169b8_0_30#slide=id.g2b3404169b8_0_30).
+Last time, we "forked" the [networked-media-starter](https://github.com/samheckle/networked-media-starter). Your file structure on your computer should look like:
 
-Open your folder in VS Code. Open a terminal in VS Code (Terminal menu in top right → New Terminal). We need to navigate to the `webserver` folder in the command line.
+```
+networked-media/
+├── class-demos/
+├── webserver/
+│   ├── server.js
+│   ├── public
+│   │   ├── project1/
+│   │   ├── project2/
+├── project3/
+├── project4/
+├── project5/
+```
+
+Open your `networked-media` folder in VS Code. Open a terminal in VS Code:
+
+- Mac: Terminal menu in top right → New Terminal
+- PC: Terminal menu in top right → New Terminal → In the new window on the bottom, there should be a button: [+ ⋎] → click ⋎ → Select gitbash
+
+We need to navigate to the `webserver` folder in the command line.
 
 ```sh
 cd webserver
@@ -234,7 +252,9 @@ This is because of how `ssh` and shell (aka terminal) sessions work. Once we con
 
 In order to avoid that, we need an external utility which keeps our web server running even after we disconnect. There are a handful of options, but the one we will work with is called `pm2`. It also exists in the `npm` ecosystem, so you can install it like this:
 
-`sudo npm install --global pm2`
+```bash
+sudo npm install --global pm2
+```
 
 The `--global` flag tells `npm` to install this library for the entire filesystem, as opposed to locally for a project. `pm2` is a command-line utility, so it needs to be installed globally. We’ll get more into this later in the semester.
 
