@@ -1,0 +1,15 @@
+.vertical {
+  width: 10px;
+  word-break: break-word;
+  display: inline-block;
+}
+
+.special {
+  position: absolute;
+  top: 50px;
+  left: 15px;
+}
+
+.nav > p {
+    
+}
