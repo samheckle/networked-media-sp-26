@@ -31,10 +31,11 @@ In Groups of 3:
   - Think about the contexts in which code is created (most code examples are in English, privilege of using a computer from a young age)?
 - What are ways we can break from these contexts to make media art more accessible?
 - Discuss the feedback loop between media > new media.
-  - What is the role of the computer as a "media synthesizer and manipulator"1?
+  - What is the role of the computer as a "media synthesizer and manipulator"?
   - What other roles does your computer have?
   - Reflect on your digital systems: are you a digital hoarder? how do you navigate through your computer? How did you land on that system?
 - What are ways we can learn without relying on an algorithm?
+- What was the last book you read? When was the last time you consumed media (music, book, movie, tv show), without checking your phone?
 
 tldr; Being computer-literate is a privilege and breaking away from systems we are deeply entrenched is difficult. During this semester, try this [bibliomancy exercise](web.archive.org/web/20250218222440/https://querent.substack.com/p/bibliomancy-for-the-living-autobiography)! If you do so and send me an email, would happily give you extra credit.
 
