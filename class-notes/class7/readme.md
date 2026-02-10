@@ -37,7 +37,7 @@ In Groups of 3:
 - What are ways we can learn without relying on an algorithm?
 - What was the last book you read? When was the last time you consumed media (music, book, movie, tv show), without checking your phone? When was the last time you read for pleasure, not for school?
 
-tldr; Being computer-literate is a privilege and breaking away from systems we are deeply entrenched is difficult. During this semester, try this [bibliomancy exercise](web.archive.org/web/20250218222440/https://querent.substack.com/p/bibliomancy-for-the-living-autobiography)! If you do so and send me an email, would happily give you extra credit.
+tldr; Being computer-literate is a privilege and breaking away from systems we are deeply entrenched is difficult. During this semester, try this [bibliomancy exercise](http://web.archive.org/web/20250218222440/https://querent.substack.com/p/bibliomancy-for-the-living-autobiography)! If you do so and send me an email, would happily give you extra credit.
 
 ---
 
