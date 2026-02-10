@@ -6,8 +6,8 @@
 | 1/27  | [Intro to CSS](/class-notes/class3/readme.md) |
 | 1/29  | [Intro to Digital Ocean](/class-notes/class4/readme.md#tutorial-web-hosting-on-digital-ocean)| [FAQ](/faq.md) |
 | 2/3   |
-| 2/5   | [Intro to DOM]()|
-| 2/10  | [Intro to Time]()      |
+| 2/5   | [Intro to DOM](/class-notes/class5/readme.md#tutorial-introduction-to-the-dom)|
+| 2/10  | [Intro to Time](/class-notes/class7/readme.md#introduction-to-time)      |
 | 2/12  | [Intro to Events]()    |
 | 2/17  | No class, school meets on Monday schedule     |
 | 2/19  |
