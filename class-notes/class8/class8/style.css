@@ -1,0 +1,24 @@
+.parent {
+  background-color: aliceblue;
+  width: 100%;
+  height: 400px;
+}
+
+.child {
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+  display: inline-block;
+}
+
+#rotate {
+  width: 200px;
+  height: 200px;
+  background-color: navy;
+}
+
+.parent > .hi {
+  background-color: orange;
+  border: solid maroon 3px;
+}
