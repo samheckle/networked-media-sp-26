@@ -11,7 +11,8 @@ window.onload = () => {
     angle++;
     console.log(angle);
     rot.style.transform = `rotate(${angle}deg)`;
-    // using ``(backtick) to inject a variable with the ${} syntax
+    // rot.style.transform = "rotate(" + angle+ "deg)"
+    // using ``(backtick) to inject a variable with the ${} syntax ~~~~~~~~ ```````````~~~~~``````
     // "rotate(" + angle + "deg)"
   }, 1000);
 
