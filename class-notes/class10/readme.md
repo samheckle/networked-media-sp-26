@@ -267,7 +267,8 @@ We can only use _one_ of these responses at the end of each request handler.
 - `response.sendFile()` → redirect to a different page
 
 5. Listen for requests  
-   Tells the node app to listen to requests on the particular port. This is the absolute last thing you want to do on your server.
+
+Tells the node app to listen to requests on the particular port. This is the absolute last thing you want to do on your server.
 
 ```js
 app.listen(5001, () => {
