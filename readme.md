@@ -8,11 +8,11 @@
 | 2/3   |
 | 2/5   | [Intro to DOM](/class-notes/class5/readme.md#tutorial-introduction-to-the-dom)|
 | 2/10  | [Intro to Time](/class-notes/class7/readme.md#introduction-to-time)      |
-| 2/12  | [Intro to Events]()    |
+| 2/12  | [Intro to Events](/class-notes/class8/readme.md#introduction-to-events)    |
 | 2/17  | No class, school meets on Monday schedule     |
 | 2/19  |
-| 2/24  | [Intro to Express]()   |
-| 2/26  | [Intro to Templates]() |
+| 2/24  | [Intro to Express](/class-notes/class10/readme.md#introduction-to-servers)   |
+| 2/26  | [Intro to Templates](/class-notes/class11/readme.md#introduction-to-templates) |
 | 3/3   |
 | 3/5   |
 | 3/10  | Project #3 Critique (part 1)    |
