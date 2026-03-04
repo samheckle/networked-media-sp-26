@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>class 12</title>
+		<link href="style.css" rel="stylesheet" />
+		<script src="main.js"></script>
+	</head>
+	<body>
+		<!-- new form attribute: enctype to process file data -->
+		 <!-- if you don't have images you don't need this -->
+		<form method="POST" action="/makePost" enctype="multipart/form-data">
+			<input type="text" name="caption" />
+			<div class="inputButtons">
+				<!-- new input type=file for image uploading -->
+				 <!-- you can find tutorials to style this one specifically -->
+				<input type="file" name="myImage" />
+				<input type="submit" value="post!!!!!!!" />
+			</div>
+		</form>
+
+		<div class="posts">
+			<!--  -->
+			<% for(let post of allPosts){ %>
+				<img src="/uploads/<%= post.file %>">
+				<p> <%= post.caption %></p>
+			<% } %>
+		</div>
+	</body>
+</html>
