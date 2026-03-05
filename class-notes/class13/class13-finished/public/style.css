@@ -1,0 +1,8 @@
+.post {
+	width: 200px;
+}
+
+.post > img {
+	/* sets the image to have a width the size of its parent container */
+	width: 100%;
+}
