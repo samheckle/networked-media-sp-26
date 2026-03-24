@@ -44,6 +44,10 @@ app.get('/', (request, response) => {
 	response.render('index.ejs', { clientPosts: serverStoredPosts });
 });
 
+app.get('/all-posts', (req, res)=>{
+	response.render('posts.ejs', {clientPosts: serverStoredPosts})
+})
+
 // what are the three parameters in this function?
 // A: 1st: route, 2nd: multer send the data from theimage to the folder destination, 3rd: callback function/action that happens when the route is hit
 app.post('/upload', upload.single('theimage'), (req, res) => {

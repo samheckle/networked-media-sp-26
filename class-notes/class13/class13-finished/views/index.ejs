@@ -5,7 +5,7 @@
   </head>
   <body>
       <form method="POST" action="/upload" enctype="multipart/form-data">
-          <input type="text" name="text" placeholder="Say something..." />
+          <input type="text" name="happy" placeholder="Say something..." />
           <div class="submit-container">
             <div>
               <label for="file-upload" class="custom-file-upload"> </label>
@@ -16,19 +16,6 @@
             </div>
           </div>
       </form>
-    <div class="all-posts">
-      <!-- add the variable that stores your global array in response.render) -->
-        <% for(let post of clientPosts) { %>
-        <div class="post">
-          <%# what is the difference between  ? #%>
-          <%# A: = will render the variable normally, plain ejs syntax is just normal js  #%>
-            <span class="date"> <%= post.date %></span>
-            <% if(post.image) { %>
-                <img src="<%=post.image %>">
-            <% } %>
-            <p class="post-text"><%= post.text %></p>
-        </div>
-        <% } %>
-      </div>
+      <a href="/all-posts">go to all posts</a>
   </body>
 </html>

@@ -19,7 +19,7 @@
 | 3/12  | Project #3 Critique (part 2)    |
 | 3/17  | No class, spring break |
 | 3/19  | No class, spring break |
-| 3/24  | [Intro to API]()|
+| 3/24  | [Intro to API](/class-notes/class16/readme.md#intro-to-api)|
 | 3/26  | [Intro to Databases]() |
 | 3/31  | [Intro to Mastadon]()  |
 | 4/2   | |
