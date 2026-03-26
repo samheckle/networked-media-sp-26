@@ -1,0 +1,16 @@
+{
+  "name": "class16",
+  "version": "1.0.0",
+  "description": "1. Reading Discussion #5 (25 min) 2. Lecture: Intro to API 3. Tutorial: Setting up API on our server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
