@@ -6,7 +6,14 @@
 		hihihihihi
 
 		<form method="POST" action="/makePost">
-			<input type="text" placeholder="write a note!" name="note" />
+			<label for="post">POST</label>
+			<input type="text" placeholder="write a note!" name="note" id="post" />
+			<input type="submit" value="post!" />
+		</form>
+
+		<form method="GET" action="/makePost">
+			<label for="get">GET</label>
+			<input type="text" placeholder="write a note!" name="note" id="get" />
 			<input type="submit" value="post!" />
 		</form>
 	</body>

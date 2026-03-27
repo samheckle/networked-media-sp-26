@@ -50,6 +50,7 @@ app.get('/api/entire-database', (request, response) => {
 			response.send('error in retrieving data');
 		} else {
 			response.json(foundData);
+			// response.render("index.ejs", {clientData: foundData})
 		}
 	});
 });
@@ -57,6 +58,7 @@ app.get('/api/entire-database', (request, response) => {
 app.get('/api/notes', (request, response) => {
 	// if we want to find all instances of a matching value
 	let query = {
+		// nedb syntax to check if "note" property exists in database item
 		note: { $exists: true },
 	};
 
@@ -64,6 +66,8 @@ app.get('/api/notes', (request, response) => {
 		if (err) {
 			response.send('error in retrieving data');
 		} else {
+			// database searches for all items that match "note"
+			// creates an array that is sent back to the client
 			response.json(foundData);
 		}
 	});
