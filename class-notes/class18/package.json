@@ -1,7 +1,7 @@
 {
   "name": "class18",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. Reading Discussion #6 2. Lecture: Mastodon 3. Tutorial: Mastodon",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
