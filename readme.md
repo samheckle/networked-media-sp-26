@@ -20,9 +20,9 @@
 | 3/17  | No class, spring break |
 | 3/19  | No class, spring break |
 | 3/24  | [Intro to API](/class-notes/class16/readme.md#intro-to-api)|
-| 3/26  | [Intro to Databases]() |
-| 3/31  | [Intro to Mastadon]()  |
-| 4/2   | |
+| 3/26  | [Intro to Databases](/class-notes/class17/readme.md) |
+| 3/31  | [Intro to Mastadon](/class-notes/class18/readme.md)  |
+| 4/2   | [Adding bot to our droplet](/class-notes/class19/readme.md#setting-up-bot-on-droplet)|
 | 4/7   | [Intro to Cookies]()   |
 | 4/9   | [Intro to Authentication]()     |
 | 4/14  | |
