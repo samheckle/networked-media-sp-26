@@ -32,14 +32,16 @@ const app = express();
 const database = new nedb({ filename: 'mydatabase.txt', autoload: true });
 
 app.use(express.static('public'));
-app.use(express.urlencoded({ extended: true }));
+// app.use(express.urlencoded({ extended: true }));
+// we are using just json today since we aren't uploading images
+app.use(express.json())
 
 app.listen(4005, () => {
 	console.log('app is running on http://localhost:4005');
 });
 ```
 
-We want our bot to talk to our server, so let's set up a route that will send all the database data:
+We want our bot to talk to our server, so let's set up our routes to add and retrieve data.
 
 ```js
 app.get('/api/retrieve', (req, res) => {
@@ -47,6 +49,18 @@ app.get('/api/retrieve', (req, res) => {
 		response.json(foundData);
 	});
 });
+
+app.post('/api/add', (req, res)=>{
+	// retrieve the body of the request
+	console.log(request.body.content)
+
+	let dataToBeAdded = {
+		post: request.body.content
+	}
+	database.insert(dataToBeAdded, (err, numAdded)=>{
+		response.sendStatus(201)
+	})
+})
 ```
 
 But we don't have a way right now to add data.
@@ -64,7 +78,7 @@ We do need to import a library to parse HTML:
 const jsdom = require('jsdom');
 ```
 
-Instead of a REST api, we need to use a socket API that will always listen for requests.
+On top of our existing REST api, we need to use a socket API that will always listen for requests.
 
 ```js
 const stream = m.createStreamingAPIClient({
@@ -110,7 +124,7 @@ if (notif.payload.type == 'mention') {
 	// send the data to the server using javascript and a fetch request
 	await fetch('/api/add', {
 	    method: "POST",
-	    body: JSON.stringify(text),
+	    body: JSON.stringify({content: text}),
         headers: {
             "Content-Type": "application/json"
         }
