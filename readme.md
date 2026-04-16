@@ -23,11 +23,11 @@
 | 3/26  | [Intro to Databases](/class-notes/class17/readme.md) |
 | 3/31  | [Intro to Mastadon](/class-notes/class18/readme.md)  |
 | 4/2   | [Adding bot to our droplet](/class-notes/class19/readme.md#setting-up-bot-on-droplet)|
-| 4/7   | [Intro to Cookies]()   |
-| 4/9   | [Intro to Authentication]()     |
+| 4/7   |   |
+| 4/9   |     |
 | 4/14  | |
-| 4/16  | |
-| 4/21  | |
+| 4/16  | [Intro to Cookies]() |
+| 4/21  | [Intro to Authentication]() |
 | 4/23  | |
 | 4/28  | |
 | 4/30  | |
