@@ -16,6 +16,7 @@
 - Is their concept clear? How can it be improved?
 
 3 minutes: Exchange your papers and annotate their notes on your project
+
 5 minutes (x2): talk with your partner to share notes, suggestions, questions, other feedback
 
 ## What are cookies?
