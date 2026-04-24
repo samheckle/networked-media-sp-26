@@ -1,0 +1,1 @@
+{"_id":"_-5uLkrX0GaiI41DPDdvCCa6Ge7Koq9c","session":{"cookie":{"originalMaxAge":31535999998,"expires":{"$$date":1808514640192},"httpOnly":true,"path":"/"},"loggedInUser":"smh"},"expiresAt":{"$$date":1808514640192},"createdAt":{"$$date":1776804953924},"updatedAt":{"$$date":1776978640194}}

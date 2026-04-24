@@ -26,9 +26,9 @@
 | 4/7   |   |
 | 4/9   |     |
 | 4/14  | |
-| 4/16  | [Intro to Cookies]() |
-| 4/21  | [Intro to Authentication]() |
-| 4/23  | |
+| 4/16  | [Intro to Cookies](/class-notes/class23/readme.md#what-are-cookies) |
+| 4/21  | [Intro to Authentication (code only)](/class-notes/class24/) |
+| 4/23  | [Review](/class-notes/class25/)|
 | 4/28  | |
 | 4/30  | |
 | 5/5   | |
