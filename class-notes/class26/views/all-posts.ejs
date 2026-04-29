@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>all posts</title>
+		<link href="style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<%- include('nav.ejs') %>
+        <div class="content-all-posts">
+        <% for(let post of serverData){ %> 
+            <div class="individual-post">
+                <span><%= post.date%></span>
+                <%= post.caption %>
+            </div>
+        <% } %>
+        </div>
+	</body>
+</html>

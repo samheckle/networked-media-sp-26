@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>login</title>
+		<link href="style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<%- include('nav.ejs') %>
+		<div class="content">
+			<a href="/signup-page">don't have an account?</a>
+			<form method="POST" action="/authenticate" class="account-form">
+				<input type="text" name="username" placeholder="username" />
+				<input type="password" name="pass" placeholder="password" />
+				<input type="submit" value="login" />
+			</form>
+		</div>
+	</body>
+</html>

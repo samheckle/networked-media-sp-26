@@ -1,0 +1,72 @@
+/* ensuring the html page and body tags do not have a margin so there is no weird border along the edges */
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+
+nav {
+	width: 100wh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: bisque;
+	padding: 20px;
+}
+
+/* in css a , means the same rule will be applied to both selectors */
+/* a:visited is a pseudo selector for when a link has already been clicked */
+/* see https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes */
+a,
+a:visited {
+	color: gray;
+}
+
+.account-form {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
+.content {
+	width: 80%;
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: auto;
+}
+
+.content-new-post {
+	width: 80%;
+	height: 80%;
+	margin: auto;
+}
+
+/* > means "child of", so this example will select any form element that is a child of an element with the class of .content-new-post */
+/* these are called combinators: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Combinators  */
+.content-new-post > form {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	margin: auto;
+	padding-top: 30px;
+}
+
+.content-all-posts {
+	width: 60%;
+	margin: auto;
+}
+
+.individual-post {
+	border: 2px solid grey;
+	padding: 10px;
+	margin: 10px;
+}
+
+#sketch2 {
+	position: absolute;
+	top: 300px;
+	left: 100px;
+}

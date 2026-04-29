@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>sign up</title>
+		<link href="style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<%- include('nav.ejs') %>
+		<a href="/login-page">already have an account?</a>
+		<form method="POST" action="/register" class="account-form">
+			<input type="text" name="username" />
+			<input type="password" name="pass" />
+			<input type="submit" value="login" />
+		</form>
+	</body>
+</html>

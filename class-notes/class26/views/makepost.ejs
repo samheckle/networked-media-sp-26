@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>make a post!</title>
+		<link href="style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<%# use a partial to store nav links in a single file %> <%# every time you
+		need to make a change to the nav bar, it will be reflected everywhere %> <%-
+		include('nav.ejs') %> <%# using a class to separate content from nav bar %>
+		<div class="content-new-post">
+			<%# POST request that uses /new-post route %> <%# because of file upload,
+			we include enctype %>
+			<form method="POST" action="/new-post" enctype="multipart/form-data">
+				<%# normal input type of text with a placeholder description %>
+				<input type="text" name="caption" placeholder="write a caption" />
+				<%# we want the upload and submit button next to each other, so we group
+				them %>
+				<div class="input-controls">
+					<%# if we have input type of file, we need enctype in form attributes
+					%>
+					<input type="file" name="myupload" />
+					<input type="submit" value="upload an image" />
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
